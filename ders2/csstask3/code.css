@@ -1,0 +1,65 @@
+body{
+    background-color: gray;
+}
+
+.file1{
+    text-align: center;
+    color: white;
+    text-transform: capitalize;
+    background-color: rgb(85, 88, 88);
+    text-decoration-line: underline;
+    text-decoration-color: antiquewhite;
+    text-decoration-style: solid;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px red;
+}
+.file2{
+    text-align: center;
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.file3{
+text-align: center;
+color: white;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+text-decoration-line: line-through;
+text-decoration-style: double;
+text-decoration: dashed;
+
+}
+
+.file4{
+    text-align: center;
+    color: white;
+    text-align: center;
+    text-decoration: double;
+    text-decoration-line: initial;
+    text-decoration-color: blanchedalmond;
+    text-decoration-style: solid;
+    text-decoration-thickness: 5px;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px rgb(59, 9, 151);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.font{
+    width: 200px;
+    height: 150px;
+    border: 1px solid rgb(0, 0, 0);
+    border-style: solid;
+    border-radius: 1px;
+    display: inline-block;
+    background-color: white;
+    border-width: 7px;
+    padding: 10px;
+    color: rgb(99, 99, 37);
+    margin: 30px;
+
+
+}
+
+
