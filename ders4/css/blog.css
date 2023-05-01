@@ -1,0 +1,37 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bgimage{
+    height: 150vh;
+    background-image: url(https://img.freepik.com/free-photo/pretty-young-woman-posing-pink-background_158595-1455.jpg?w=1480&t=st=1682889086~exp=1682889686~hmac=589fc064e305a8f4b1a698c3c88a213defd047e0b3f70e1bec374bc977b065d9);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    
+}
+.text{
+    width: 50%;
+    padding: 14rem 9rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    word-spacing: 10px;
+}
+
+.text p{
+    margin-top: 3rem;
+    
+}
+.text button{
+background-color: rgb(176, 176, 96);
+color: white;
+font-size: medium;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+border-radius: 35px;
+padding: 1rem 3rem;
+font-size: 15px;
+border: none;
+margin-top: 2rem;
+}
