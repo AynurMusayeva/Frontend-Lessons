@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(78, 44, 44);
+}
+
+.boxes{
+    text-align: center;
+   
+    
+}
+.food{
+        width: 20%;
+        border: 1px solid;
+        display: inline-block;
+        margin: 3rem 3rem 0rem 0;
+        background-color: white;
+        border-radius: 10px;
+        
+}
+.food img{
+    width: 180px;
+    height: 180px;
+    border-radius: 100px;
+    text-align: center;
+    margin-top: 2rem;
+}
+.food .gray{
+    color: gray;
+}
+
+.food a{
+    color: red;
+}
+
+.food h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
