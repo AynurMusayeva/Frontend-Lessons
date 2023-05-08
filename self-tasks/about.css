@@ -1,0 +1,212 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.dogs .container{
+    margin: auto;
+    width: 80%;
+}
+.dogs .dog{
+float: left;
+ margin-right: 4rem;
+ width:48%;
+ margin-top: 13rem;
+ line-height: 70px;
+ font-size: 150px;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.dogs .dog h1{
+    font-size: 60px;
+    font-style: inherit;
+    font-weight: 40px;
+    width: 100%;
+}
+ .dogs .dog p{
+    color: gray;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.5;
+ }
+
+ .dogs .dog .imgdog{
+    width: 48%;
+    float: right;
+  
+ 
+}
+
+ .imgdog img{
+    width: auto;
+    max-height: 100%;
+    margin-top: 3rem;
+    margin-left: 1rem;
+}
+
+.animals .container{
+    margin: auto;
+    width: 80%;
+}
+
+.animals{
+    height: 500px;
+    padding-top: 9rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.animals .about{
+    margin: auto;
+    width: 60%;
+    line-height: 40px;
+    letter-spacing: 1px;
+     font-weight: 300;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 6rem;
+    text-align: center;
+}
+.animals .about .gray{
+    color: gray;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+.animals .about h1{
+    font-size: 30px;
+}
+
+.animals .about1{
+    float: left;
+    width: 35%;
+    text-align: right;
+    line-height: 1.5rem;
+    margin-top: 4rem;
+    margin-left: 3rem;
+}
+
+.animals .about1 h2{
+    font-size: 30px;
+    font-weight: 100;
+    margin-bottom: 1.5rem;
+    
+    
+}
+
+.animals .about1 .gray{
+    width: 100%;
+    color: gray;
+    line-height: 1.7rem;
+    
+
+}
+
+.animals .about2{
+    float: right;
+    width: 45%;
+}
+
+.animals .about2 img{
+    margin-bottom: 2rem;
+}
+.animals .about1 button{
+    background-color: #a2c0be;
+    border-color: #a2c0be;
+    border-style: none;
+    border-radius: 40px;
+    color: white;
+    font-size: 13px;
+    margin-top: 2rem;
+    padding: 15px 2.5rem;
+}
+
+.price .container{
+    margin: auto;
+    width: 80%;
+}
+.price{
+    padding-top: 20rem;
+    text-align: center;
+    margin: auto;
+}
+.price .text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: auto;
+}
+.price .table{
+    display: inline-block;
+    border: 1px solid;
+    border-style: none;
+    background-color: #7fa5a3;
+    width: 33%;
+    height: 550px;
+    margin: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.price .text h1{
+    font-size: 30px;
+    line-height: 2rem;
+    font-weight: 300px;
+    margin-bottom: 1rem;
+
+
+
+}
+ .price .text p{
+    color: gray;
+    margin-bottom: 8rem;
+    margin-top: 2rem;
+    line-height: 1.5rem;
+    font-size: 15px;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+ }
+
+ .price .table{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 3rem;
+    margin-top: 4rem;
+ }
+.price .table button{
+    background-color: #5a6268;
+    border-color: #545b62;
+    border-radius: 40px;
+    padding: 12px 2.2rem;
+    color: white;
+    font-size: 16px;
+    margin-top: 3rem;
+}
+.price .table h2{
+    font-size: 28px;
+    font-weight: 20;
+    text-transform: uppercase;
+    margin-top: 2rem;
+
+}
+
+.price .table h1{
+    font-size: 40px;
+    font-weight: 20;
+    margin-bottom: 2rem;
+
+}
+.price .table span{
+    font-size: 15px;
+    font-weight: 20;
+    margin-bottom: 2rem;
+
+}
+.price .table p{
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 20;
+
+}
+
+.price .table .class1{
+    text-decoration-line: line-through;
+    text-decoration-color: white;
+}
