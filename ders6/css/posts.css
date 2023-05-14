@@ -1,0 +1,148 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.container{
+   width: 80%;
+   margin:auto
+}
+
+.miniblog{
+   background-color: #f4f6f8;
+   padding: 3rem 0;
+}
+
+.miniblog .box{
+   width: 30%;
+   float: left;
+   margin: 0 1rem;
+   height: 415px;
+   background-size: cover;
+   background-position: center;
+   border-radius: 3px;
+}
+
+.miniblog .box .blogbox{
+   height: 200px;
+   background-size: cover;
+   background-position: center;
+   filter: brightness(0.9);
+   border-radius: 3px;
+}
+
+
+
+.miniblog .box  .text{
+   padding-top: 7rem;
+   padding-left: 1rem;
+   color: white;
+   font-size: 10px;
+   font-weight: 200;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.miniBlog .box .text h2{
+   color: #fff;
+   font-size: 18px;
+   line-height: 1.5;
+}
+
+.miniblog .box .blogbox:first-child{
+   margin-bottom: 1rem;
+}
+
+.clearFix{
+   clear: both;
+}
+
+.blog .texts{
+    color: white;
+    width: 50%;
+    font-size: 10px;
+    font-family: sans-serif;
+    font-weight: 50;
+    padding: 6rem 1rem;
+ }
+ .blog .gray{
+    color: gray;
+    font-size: 8px;
+    font-weight: 30;
+    font-family: sans-serif;
+ }
+
+ .posts{
+    padding-top: 10rem;
+    margin: 0 2rem;
+ }
+
+  .posts .container{
+    margin: auto;
+    width: 99%;
+  }
+   .posts .img{
+    width: 25%;
+    float: left;
+   }
+
+   .posts .img .text{
+      width: 100%;
+   }
+
+   .posts .img{
+      margin: 0 3rem;
+      
+   }
+   .clearfix{
+      clear: both;
+   }
+   h1{
+      margin-bottom: 5rem;
+      margin-left: 2rem;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+   }
+
+   .posts .img .text .field1{
+      background-color: gray;
+      color: white;
+      border-radius: 2px;
+      padding: 5px 0.5rem;
+      font-size: 15px;
+      letter-spacing: 3px;
+      
+
+   }
+     .posts .img .text .field2{
+      background-color: rgb(80, 173, 65);
+      color: white;
+      border-radius: 2px;
+      padding: 5px 0.5rem;
+      font-size: 15px;
+      letter-spacing: 3px;
+   }
+     .posts .img .text .field3{
+      background-color: rgba(238, 174, 24, 0.876);
+      color: white;
+      border-radius: 2px;
+      padding: 5px 0.5rem;
+      font-size: 15px;
+      letter-spacing: 3px;
+   }
+
+   .posts .text h2{
+      margin: 2rem 0;
+      width: 100%;
+      font-size: 24px;
+      margin-bottom: 30px;
+      font-weight: 600;
+      font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+      line-height: 35px;
+   }
+
+   .posts .figure img{
+      border-radius: 50px;
+   }
+   .posts .figure span,
+   .post .figure b{
+      margin
+   }
