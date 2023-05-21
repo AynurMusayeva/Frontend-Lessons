@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap');
+</style>
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.kindergarten .text{
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    padding-left: 5rem;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    left: 5%;
+    top: 0;
+    margin: auto;
+    width: 35%;
+    height: 450px;
+    line-height: 1;
+    
+}
+.kindergarten .imgbox{
+    position: relative;
+
+}
+.kindergarten .text h2{
+    font-size: 70px;
+    font-family: 'Fredoka', sans-serif;
+    color: #423F8D;
+    font-weight: bolder;
+    
+
+}
+.kindergarten .text h1{
+    font-size: 40px;
+    font-family: 'Fredoka', sans-serif;
+    color: #FBCE0F;
+    line-height: 1;
+    padding-bottom: 1rem;
+}
+ .kindergarten .text button{
+    background-color: #ED078B;
+    padding: 14px 40px;
+    color: white;
+    font-size: 15px;
+    border-radius: 30px;
+    letter-spacing: 1px;
+    font-family: 'Fredoka', sans-serif;
+    border-style: none;
+
+ }
+ .admission .container{
+    width: 90%;
+    margin: auto;
+ }
+ .d-flex{
+    display: flex;
+    justify-content: space-between;
+ }
+ .admission{
+    background-image: url(../ders72/section_bg1.png.webp);
+    background-size: cover;
+    height: 150vh;
+    margin-top: 6rem;
+
+ }
+ .admission .lessons .imgbox{
+    position: relative;
+ }
+ .admission .lessons .element{
+    background: #FF377B;
+    width: 35%;
+    border-radius: 47px;
+    color: white;
+    padding: 8px 5px;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    font-size: 13px;
+    font-family: 'Fredoka', sans-serif;
+    text-align: center;
+
+  
+ }
+ .dflex{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 1rem;
+ }
+ .admission .lessons .heading{
+    color: #423F8D;
+    font-family: 'Fredoka', sans-serif;
+    text-align: center;
+    width: 80%;
+    margin-left: 10rem;
+    padding-top: 10rem;
+ }
+ .admission .lessons .heading h1{
+    font-size: 40px;
+ }
+ .admission .lessons .heading p{
+    font-size: 20px;
+    font-weight: 10;
+ }
+
