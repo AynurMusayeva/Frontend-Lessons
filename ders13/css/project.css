@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Fredoka:wght@500&family=Plus+Jakarta+Sans:wght@500&family=Roboto&display=swap');
+
+*{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.project{
+    background-color: #20484F;
+    padding: 8rem 0;
+}
+.project .imgbox{
+    position: relative;
+    
+}
+.project .imgbox img{
+    width: 100%;
+}
+.project .post1{
+    background-color: white;
+    padding: 2rem;
+    border-radius: 12px;
+    display: inline-block;
+    position: absolute;
+    top: -10%;
+    left: -3%;
+}
+.project h3{
+    font-size: 24px;
+    color: #20484F;
+    font-weight: 700;
+    text-transform: capitalize;
+    width: 100%;
+}
+.space{
+    background: rgba(32, 72, 79, 0.1);
+    border-radius: 12px;
+    padding: 0.3rem 0;
+    border-style: none;
+    margin: 1rem 0;
+}
+.project i{
+    background-color: #B8E4DA;
+    color: #20484F;
+    font-size: 10px;
+    padding: 0.3rem;
+    border-radius: 50px;
+}
+.project .post2{
+    background-color: white;
+    padding: 1rem 3rem;
+    border-radius: 12px;
+    position: absolute;
+    bottom: -7%;
+    left: -10%;
+    
+    
+}
+.post2 h3{
+    font-size: 20px;
+}
+.project .post2 i{
+    background-color: #B8E4DA;
+    padding: 1rem;
+    font-size: 30px;
+    margin-right: 3rem;
+}
+.project .post3{
+    background-color: white;
+    padding: 2rem;
+    border-radius: 12px;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    top: 20%;
+    right: 15%;
+    height: 230px;
+   
+}
+.post3 img{
+    border: 3px solid white;
+    outline: 3px solid #B8E4DA;
+    border-radius: 50px;
+    width: 30% !important;
+}
+.post3 h5{
+    line-height: 1.5;
+    font-size: 16px;
+    font-weight: bolder;
+    color:  #20484F;
+}
+.post3 p{
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 1.8;
+
+}
+
+.prgrph1{
+    color: #DCF2ED;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+
+}
+h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 1.2;
+    width: 100%;
+    color: white;
+    margin: 1rem 0;
+}
+.prgrph2{
+    font-style: normal;
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 150%;
+    color: white;
+    margin: 1rem;
+    }
+.email{
+    border: 1px solid #20484F;
+    background: #FFFFFF;
+    font-size: 15px;
+    color: rgba(32, 72, 79, 0.2);
+    text-align: center;
+    border-radius: 8px 0 0 8px;
+    line-height: 2;
+
+
+}
+button{
+    background: #B8E4DA;
+    border-style: none;
+    border-radius: 0px 8px 8px 0px;
+    font-size: 15px;
+    line-height: 2;
+    padding: 0 1rem;
+    margin-left: -0.5rem;
+}
+@media only screen and (max-width: 600px) {
+     .col-sm-12{
+        position: static !important;
+        width: 100% !important;
+        margin: 1rem 0;
+     }
+    
+   
+    
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1200px) {
+    .col-md-12{
+        position: static !important;
+        width: 100% !important;
+        margin: 2rem 0;
+    }
+    .col-md-6{
+        position: static !important;
+        width: 100% !important;
+        margin: 1rem 0;
+        
+    }
+    .post1 h3{
+        font-size: 60px;
+    }
+    .post1 p{
+        font-size: 35px;
+        line-height: 1.8;
+    }
+    .post2 h3{
+        font-size: 50px;
+    }
+    .post3 h5{
+        font-size: 30px;
+    }
+    .post3  .imgbox img{
+        width: 30% !important;
+    }
+    .box p{
+        font-size: 35px;
+        line-height: 1.8;
+    }
+    .box h1{
+        font-size: 60px;
+        
+    } 
+    .box button , input{
+        padding: 2rem 1rem;
+
+    }
+
+}
