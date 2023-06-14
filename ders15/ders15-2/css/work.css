@@ -1,0 +1,44 @@
+* {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.photos {
+  padding: 3rem 0;
+  text-align: center;
+}
+.photos .heading h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.6;
+  color: #072125;
+}
+.photos .heading p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  width: 45%;
+  margin: auto;
+}
+.photos .imgbox {
+  border-radius: 12px;
+  margin: 1rem 0;
+}
+.photos .imgbox .img1 {
+  width: 70%;
+  height: 250px;
+  transform: rotate(339deg) translate(20px);
+}
+.photos .imgbox .img2 {
+  width: 70%;
+  transform: rotate(5deg) translateY(150px);
+}
+.photos .imgbox .img3 {
+  width: 70%;
+  height: 250px;
+  transform: rotate(349deg) translateX(-30px);
+}
+.photos .imgbox .img4 {
+  width: 70%;
+  transform: rotate(10deg) translateY(170px);
+}/*# sourceMappingURL=work.css.map */

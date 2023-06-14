@@ -1,0 +1,207 @@
+*{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+$mycolor: #DCF2ED;
+$mycolor1: #20484F;
+$mycolor2: #072125;
+$myfontsize: 64px;
+$myfontsize1: 18px;
+$myfontsize2: 16px;
+
+h1{
+    font-size: $myfontsize;
+    font-weight: 700;
+}
+h5{
+    font-size: $myfontsize1;
+    font-weight: 700;
+   }
+   .sites{
+    font-weight: 400;
+    font-size: $myfontsize2;
+   }
+   .headbutton{
+    background-color: $mycolor1;
+    padding: 1.1rem 2.2rem;
+    color: white;
+    border-radius: 8px;
+    border-style: none;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.online{
+    padding-top: 3rem;
+    .heading{
+        color: #072125;
+        h3{
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 1.8;
+        }
+        p{
+            font-style: normal;
+            font-weight: 100 lighter;
+            font-size: 16px;
+        }
+    }
+    .box{
+        background-color: #20484F;
+        border-radius: 24px;
+        padding: 2rem;
+        width: 95%;
+        margin: 3rem 0;
+        height: 280px;
+        color: $mycolor;
+       h5{
+        margin-top: 6rem;
+       }
+       .sites{
+        line-height: 2.5;
+        width: 100%;
+       }
+    }
+
+    
+}
+.work{
+    padding: 3rem 0;
+        .texthead{
+            h3{
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 1.2;
+                color: $mycolor2;
+            }
+            .fly{
+                font-weight: 400;
+                font-size: 18px;
+                color: $mycolor2;
+                line-height: 1.5;
+                margin-top: 1.5rem;
+            }
+            .headbutton{
+                margin-top: 5rem;
+               
+            }
+        }
+        .boxes{
+            text-align: center;
+         
+            h1{
+                color: $mycolor1;
+                line-height: 1.8;
+            }
+            h5{
+                color: $mycolor1;
+                line-height: 1.5;
+            }
+            .sites{
+                color: $mycolor2;
+                line-height: 2;
+            }
+            .heading3{
+                margin-top: 3rem;
+            }
+
+        }
+    }
+    .milestones{
+        padding: 3rem 0;
+        .box1{
+            position: relative;
+            margin: 3rem 0;
+        h3{
+            font-size: 32px;
+            color: $mycolor2;
+        }
+       
+        p{
+            line-height: 2;
+            font-size: 16px;
+            color: $mycolor2;
+        }
+
+            .headbutton{
+               position: absolute;
+               right: 0;
+               bottom: 0;
+        }
+        }
+       .box2{
+         margin: 3rem 0;
+         h1, h5{
+            color: $mycolor1;
+         }
+         .sites{
+            color: $mycolor2;
+            line-height: 2;
+         }
+       }
+    
+    }
+    .fulltime{
+        padding: 1rem 0;
+        .box{
+            color: $mycolor2;
+            h1{
+                line-height: 1.6;
+            }
+           .sites{
+              line-height: 1.6;
+              width: 80%;
+            }
+        }
+        hr{
+            color: rgb(217, 209, 209);
+            margin-top: 3rem;
+            
+        }
+    }
+    .newway{
+        padding: 2rem 0;
+        .box{
+
+            h5{
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 2;
+               }
+               h2{
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 1.2;
+               }
+               .headbutton{
+                margin-top: 3rem;
+               }
+        }
+        h1{
+            color: $mycolor1;
+            line-height: 1.6;
+            text-align: center;
+        }
+        h5{
+            color: $mycolor1;
+            line-height: 1.6;
+        }
+        .sites{
+            line-height: 1.8;
+        }
+
+    }
+     
+
+
+
+    @media only screen and (max-width: 600px){
+        .work{
+         .boxes{
+            text-align: center;
+            margin: auto;
+         }
+        }
+        
+    }

@@ -1,0 +1,186 @@
+* {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+h1 {
+  font-size: 64px;
+  font-weight: 700;
+}
+
+h5 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.sites {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.headbutton {
+  background-color: #20484F;
+  padding: 1.1rem 2.2rem;
+  color: white;
+  border-radius: 8px;
+  border-style: none;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+.online {
+  padding-top: 3rem;
+}
+.online .heading {
+  color: #072125;
+}
+.online .heading h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.8;
+}
+.online .heading p {
+  font-style: normal;
+  font-weight: 100 lighter;
+  font-size: 16px;
+}
+.online .box {
+  background-color: #20484F;
+  border-radius: 24px;
+  padding: 2rem;
+  width: 95%;
+  margin: 3rem 0;
+  height: 280px;
+  color: #DCF2ED;
+}
+.online .box h5 {
+  margin-top: 6rem;
+}
+.online .box .sites {
+  line-height: 2.5;
+  width: 100%;
+}
+
+.work {
+  padding: 3rem 0;
+}
+.work .texthead h3 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.2;
+  color: #072125;
+}
+.work .texthead .fly {
+  font-weight: 400;
+  font-size: 18px;
+  color: #072125;
+  line-height: 1.5;
+  margin-top: 1.5rem;
+}
+.work .texthead .headbutton {
+  margin-top: 5rem;
+}
+.work .boxes {
+  text-align: center;
+}
+.work .boxes h1 {
+  color: #20484F;
+  line-height: 1.8;
+}
+.work .boxes h5 {
+  color: #20484F;
+  line-height: 1.5;
+}
+.work .boxes .sites {
+  color: #072125;
+  line-height: 2;
+}
+.work .boxes .heading3 {
+  margin-top: 3rem;
+}
+
+.milestones {
+  padding: 3rem 0;
+}
+.milestones .box1 {
+  position: relative;
+  margin: 3rem 0;
+}
+.milestones .box1 h3 {
+  font-size: 32px;
+  color: #072125;
+}
+.milestones .box1 p {
+  line-height: 2;
+  font-size: 16px;
+  color: #072125;
+}
+.milestones .box1 .headbutton {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.milestones .box2 {
+  margin: 3rem 0;
+}
+.milestones .box2 h1, .milestones .box2 h5 {
+  color: #20484F;
+}
+.milestones .box2 .sites {
+  color: #072125;
+  line-height: 2;
+}
+
+.fulltime {
+  padding: 1rem 0;
+}
+.fulltime .box {
+  color: #072125;
+}
+.fulltime .box h1 {
+  line-height: 1.6;
+}
+.fulltime .box .sites {
+  line-height: 1.6;
+  width: 80%;
+}
+.fulltime hr {
+  color: rgb(217, 209, 209);
+  margin-top: 3rem;
+}
+
+.newway {
+  padding: 2rem 0;
+}
+.newway .box h5 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+.newway .box h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.2;
+}
+.newway .box .headbutton {
+  margin-top: 3rem;
+}
+.newway h1 {
+  color: #20484F;
+  line-height: 1.6;
+  text-align: center;
+}
+.newway h5 {
+  color: #20484F;
+  line-height: 1.6;
+}
+.newway .sites {
+  line-height: 1.8;
+}
+
+@media only screen and (max-width: 600px) {
+  .work .boxes {
+    text-align: center;
+    margin: auto;
+  }
+}/*# sourceMappingURL=style.css.map */
