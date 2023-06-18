@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=Fredoka:wght@500&family=Nunito+Sans:wght@300&family=Plus+Jakarta+Sans:wght@400;500&family=Roboto&display=swap");
+* {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.blogie {
+  padding: 3rem 0;
+}
+.blogie .button {
+  display: inline-block;
+  font-size: 14px;
+  padding: 8px 25px 6px;
+  color: #111111;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: 1px solid #f4952f;
+}
+.blogie .icons {
+  text-align: right;
+  padding: 63px 0;
+}
+.blogie .icons i {
+  font-size: 14px;
+  color: #111111;
+  margin-right: 10px;
+}
+
+.photos .imgbox .imgbox1 {
+  background-image: url(../hero-1.jpg.webp);
+  height: 101vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  position: relative;
+}
+.photos .imgbox .text1 {
+  color: white;
+  position: absolute;
+  top: 58%;
+  left: 0;
+}
+.photos .imgbox .text1 .dates {
+  text-align: center;
+  border: 1px solid white;
+  padding: 0.5rem 1.5rem;
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.3);
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+}
+.photos .imgbox .text1 .dates .date {
+  font-size: 42px;
+  line-height: 1;
+}
+.photos .imgbox .text1 .dates .month {
+  font-size: 24px;
+}
+.photos .imgbox .text1 .vegan {
+  width: 100%;
+}
+.photos .imgbox .text1 .vegan h2 {
+  width: 100%;
+}
+.photos .imgbox .text1 .vegan .time {
+  font-size: 12px;
+  color: #c4c4c4;
+}
+.photos .imgbox .text1 .vegan span {
+  color: #f4952f;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.photos .imgbox .text1 .vegan .desert {
+  margin-right: 1rem;
+}
+.photos .imgbox .icon {
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  border: 1px solid transparent;
+  border-color: antiquewhite;
+  padding: 0.5rem 1rem;
+  position: absolute;
+  top: 40%;
+  left: 5%;
+  background: rgba(0, 0, 0, 0.3);
+}
+.photos .imgbox .imgbox2 {
+  background-image: url(../hero-2.jpg.webp), url(../hero-3.jpg.webp);
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  margin: 0.5rem 0;
+}
+.photos .imgbox .imgbox3 {
+  background-image: url(../hero-3.jpg.webp);
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+.photos .imgbox .imgbox4 {
+  background-image: url(../hero-4.jpg.webp);
+  height: 101vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+
+.foodphoto {
+  padding: 6rem 0;
+}
+.foodphoto .bgImg1 {
+  height: 40vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+.foodphoto .bgImg2 {
+  height: 40vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+.foodphoto .bgImg3 {
+  height: 40vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+.foodphoto .bgImg4 {
+  height: 40vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+
+.cooking {
+  padding: 3rem 0;
+}
+
+.bgimg {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+
+.side_bgimg {
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.futureimg {
+  height: 200px;
+  position: relative;
+  margin-bottom: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 3rem 0;
+}/*# sourceMappingURL=blog.css.map */
