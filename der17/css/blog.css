@@ -1,0 +1,525 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=Fredoka:wght@500&family=Nunito+Sans:wght@300&family=Plus+Jakarta+Sans:wght@400;500&family=Roboto&display=swap");
+* {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.blogie {
+  padding: 3rem 0;
+}
+.blogie .button {
+  display: inline-block;
+  font-size: 14px;
+  padding: 8px 25px 6px;
+  color: #111111;
+  text-transform: uppercase;
+  font-weight: 700 bolder;
+  border: 1px solid #f4952f;
+}
+
+.icons {
+  text-align: right;
+  padding: 63px 0;
+}
+.icons i {
+  font-size: 14px;
+  color: #111111;
+  margin-right: 10px;
+}
+
+.photos .imgbox1 {
+  position: relative;
+}
+.photos .imgbox1 img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 640px;
+}
+.photos .imgbox1 .text1 {
+  color: white;
+  position: absolute;
+  top: 58%;
+  left: 0;
+}
+.photos .imgbox1 .text1 .dates {
+  text-align: center;
+  border: 1px solid white;
+  padding: 0.5rem 1rem;
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.3);
+  border-style: none;
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+}
+.photos .imgbox1 .text1 .dates .date {
+  font-size: 42px;
+  line-height: 1;
+}
+.photos .imgbox1 .text1 .dates .month {
+  font-size: 24px;
+}
+.photos .imgbox1 .text1 .vegan {
+  width: 100%;
+}
+.photos .imgbox1 .text1 .vegan h5 {
+  width: 90%;
+  font-size: 22px;
+}
+.photos .imgbox1 .text1 .vegan .time {
+  font-size: 15px;
+  color: #c4c4c4;
+}
+.photos .imgbox1 .text1 .vegan .desert {
+  color: #f4952f;
+  margin: 0 1rem;
+  text-transform: uppercase;
+}
+.photos .imgbox1 .icon {
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  border: 1px solid transparent;
+  border-style: none;
+  padding: 0.5rem 1rem;
+  position: absolute;
+  top: 40%;
+  left: 5%;
+  background: rgba(0, 0, 0, 0.3);
+}
+.photos .imgbox2 {
+  position: relative;
+  text-overflow: clip;
+}
+.photos .imgbox2 img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 318px;
+}
+.photos .imgbox2 .text1 {
+  color: white;
+  position: absolute;
+  top: 40%;
+  left: 0;
+}
+.photos .imgbox2 .text1 .dates {
+  text-align: center;
+  border: 1px solid white;
+  border-style: none;
+  width: 65px;
+  height: 65px;
+  padding: 0.5rem;
+  display: block;
+  background: rgba(0, 0, 0, 0.3);
+  margin: auto;
+}
+.photos .imgbox2 .text1 .dates .date {
+  font-size: 26px;
+  line-height: 1;
+}
+.photos .imgbox2 .text1 .dates .month {
+  font-size: 14px;
+}
+.photos .imgbox2 .text1 .vegan {
+  width: 90%;
+  font-size: 12px;
+  margin: auto;
+}
+.photos .imgbox2 .text1 .vegan h5 {
+  font-size: 20px;
+  width: 100%;
+}
+.photos .imgbox2 .text1 .vegan .time {
+  font-size: 12px;
+  color: #c4c4c4;
+}
+.photos .imgbox2 .text1 .vegan .desert {
+  color: #f4952f;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.photos .imgbox2 .text1 .vegan .desert {
+  margin-right: 1rem;
+}
+.photos .imgbox3 {
+  position: relative;
+  text-overflow: clip;
+}
+.photos .imgbox3 img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 318px;
+}
+.photos .imgbox3 .text1 {
+  color: white;
+  position: absolute;
+  top: 40%;
+  left: 0;
+}
+.photos .imgbox3 .text1 .dates {
+  text-align: center;
+  border: 1px solid white;
+  border-style: none;
+  width: 65px;
+  height: 65px;
+  padding: 0.5rem;
+  display: block;
+  background: rgba(0, 0, 0, 0.3);
+  margin: auto;
+}
+.photos .imgbox3 .text1 .dates .date {
+  font-size: 26px;
+  line-height: 1;
+}
+.photos .imgbox3 .text1 .dates .month {
+  font-size: 14px;
+}
+.photos .imgbox3 .text1 .vegan {
+  width: 90%;
+  font-size: 12px;
+  margin: auto;
+}
+.photos .imgbox3 .text1 .vegan h5 {
+  font-size: 20px;
+  width: 100%;
+}
+.photos .imgbox3 .text1 .vegan .time {
+  font-size: 12px;
+  color: #c4c4c4;
+}
+.photos .imgbox3 .text1 .vegan .desert {
+  color: #f4952f;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.photos .imgbox3 .text1 .vegan .desert {
+  margin-right: 1rem;
+}
+.photos .imgbox4 {
+  position: relative;
+}
+.photos .imgbox4 img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 640px;
+}
+.photos .imgbox4 .text1 {
+  color: white;
+  position: absolute;
+  bottom: 10%;
+  left: 0;
+}
+.photos .imgbox4 .text1 .dates {
+  text-align: center;
+  border: 1px solid white;
+  border-style: none;
+  width: 65px;
+  height: 65px;
+  padding: 0.5rem;
+  display: block;
+  background: rgba(0, 0, 0, 0.3);
+  margin: auto;
+}
+.photos .imgbox4 .text1 .dates .date {
+  font-size: 26px;
+  line-height: 1;
+}
+.photos .imgbox4 .text1 .dates .month {
+  font-size: 14px;
+}
+.photos .imgbox4 .text1 .vegan {
+  width: 90%;
+  font-size: 12px;
+  margin: auto;
+}
+.photos .imgbox4 .text1 .vegan h5 {
+  font-size: 20px;
+  width: 100%;
+}
+.photos .imgbox4 .text1 .vegan .time {
+  font-size: 15px;
+  color: #c4c4c4;
+}
+.photos .imgbox4 .text1 .vegan .desert {
+  color: #f4952f;
+  text-transform: uppercase;
+  margin: 0 1rem;
+}
+.photos .imgbox4 .icon {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  border: 1px solid transparent;
+  border-style: none;
+  padding: 0.5rem 1rem;
+  background: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 40%;
+  right: 5%;
+}
+
+.foodphoto {
+  padding: 5rem 0;
+}
+
+.cooking .bgimg {
+  position: relative;
+}
+.cooking .bgimg img {
+  width: 100%;
+}
+.cooking .bgimg .dates {
+  text-align: center;
+  border: 1px solid white;
+  border-style: none;
+  width: 65px;
+  height: 65px;
+  padding: 0.5rem;
+  display: block;
+  background: white;
+  margin: auto;
+  position: absolute;
+  top: 2%;
+  left: 2%;
+}
+.cooking .bgimg .dates .date {
+  font-size: 26px;
+  line-height: 1;
+}
+.cooking .bgimg .dates .month {
+  font-size: 14px;
+  color: gray;
+}
+.cooking .bgimg .text {
+  text-align: center;
+  margin: 2rem 0;
+}
+.cooking .bgimg .text .icons {
+  text-align: center;
+}
+.cooking .bgimg .text .vegan {
+  width: 90%;
+  font-size: 12px;
+  margin: auto;
+  line-height: 2;
+}
+.cooking .bgimg .text .vegan h5 {
+  font-size: 20px;
+  width: 100%;
+  line-height: 2;
+}
+.cooking .bgimg .text .vegan .time {
+  font-size: 15px;
+  color: #c4c4c4;
+  line-height: 2;
+}
+.cooking .bgimg .text .vegan .desert {
+  color: #f4952f;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin: 0 1rem;
+}
+.cooking .bgimg .text p {
+  font-size: 18px;
+}
+.cooking .bgimg .text button {
+  display: inline-block;
+  font-size: 14px;
+  padding: 8px 25px 6px;
+  color: #111111;
+  text-transform: uppercase;
+  font-weight: 700 bolder;
+  border: 1px solid #f4952f;
+}
+.cooking .bgimg .text .icons {
+  font-size: 16px;
+  color: rgb(109, 105, 105);
+}
+.cooking .bgimg .text .icons span {
+  margin: 0 1rem;
+}
+.cooking .imgbox .row {
+  margin: 1rem 0;
+}
+.cooking .imgbox .row .cptext .dates {
+  text-align: center;
+  border: 1px solid white;
+  border-style: none;
+  width: 65px;
+  height: 65px;
+  padding: 0.5rem;
+  display: block;
+  background: #f5f5f5;
+  margin: auto;
+}
+.cooking .imgbox .row .cptext .dates .date {
+  font-size: 26px;
+  line-height: 1;
+  font-weight: bolder;
+}
+.cooking .imgbox .row .cptext .dates .month {
+  font-size: 14px;
+  color: gray;
+}
+.cooking .imgbox .row .cptext .vegan {
+  width: 90%;
+  font-size: 12px;
+  margin: auto;
+}
+.cooking .imgbox .row .cptext .vegan h5 {
+  font-size: 20px;
+  width: 100%;
+}
+.cooking .imgbox img {
+  width: 100%;
+}
+.cooking .imgbox .heading h6 {
+  display: inline-block;
+  font-size: 15px;
+  color: #111111;
+  text-transform: uppercase;
+  margin: 2rem 0;
+}
+.cooking .imgbox .sidebartext h6 {
+  font-size: 15px;
+  color: #444444;
+  margin-top: 1rem;
+}
+.cooking .imgbox .sidebartext span {
+  color: #f4952f;
+}
+.cooking .imgbox .sidebartext p {
+  font-size: 14px;
+  color: #444444;
+  font-weight: 400;
+  line-height: 26px;
+  margin: 0 0 15px 0;
+}
+.cooking .imgbox .sidebartext .sidebtn {
+  display: inline-block;
+  font-size: 14px;
+  padding: 8px 25px 6px;
+  color: #111111;
+  text-transform: uppercase;
+  font-weight: 700 bolder;
+  border: 1px solid #f4952f;
+}
+.cooking .imgbox .heading h6 {
+  font-size: 15px;
+  color: #444444;
+  margin-top: 1rem;
+}
+.cooking .imgbox .sidebar_followlinks {
+  line-height: 2;
+}
+.cooking .imgbox .sidebar_followlinks i {
+  display: inline-block;
+  font-size: 16px;
+  color: #111111;
+  height: 46px;
+  width: 46px;
+  background: #f2f2f2;
+  border-radius: 50%;
+  line-height: 46px;
+  text-align: center;
+}
+.cooking .imgbox .bannerimg h5 {
+  display: inline-block;
+  font-size: 15px;
+  color: #111111;
+  text-transform: uppercase;
+  line-height: 3;
+}
+.cooking .imgbox .bannerimg .box {
+  color: #444444;
+  font-size: 15px;
+  font-weight: 600;
+}
+.cooking .imgbox .bannerimg .box .number {
+  text-align: right;
+}
+.cooking .imgbox .substext h6 {
+  display: inline-block;
+  font-size: 15px;
+  color: #111111;
+  text-transform: uppercase;
+}
+.cooking .imgbox .substext p {
+  font-size: 14px;
+  color: #444444;
+  font-weight: 400;
+  line-height: 26px;
+  margin: 0 0 15px 0;
+}
+.cooking .imgbox .substext form input {
+  height: 46px;
+  width: 100%;
+  padding-left: 15px;
+  border: 1px solid #e1e1e1;
+  font-size: 15px;
+  color: #888888;
+  margin-bottom: 20px;
+}
+
+.futurepost .heading h6 {
+  display: inline-block;
+  font-size: 15px;
+  color: #111111;
+  text-transform: uppercase;
+  margin: 2rem 0;
+}
+
+.futureimg {
+  position: relative;
+  margin: 1rem 0;
+}
+.futureimg img {
+  width: 100%;
+}
+.futureimg .sidebartext {
+  position: absolute;
+  left: 0;
+  bottom: 5%;
+  width: 80%;
+  margin-left: 1rem;
+}
+.futureimg .sidebartext span {
+  font-size: 12px;
+  color: #f4952f;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.futureimg .sidebartext h5 {
+  font-size: 18px;
+}
+.futureimg .sidebartext h5 a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.bannerimg {
+  margin: 3rem 0;
+}
+.bannerimg img {
+  width: 100%;
+}
+
+.photobox {
+  background: #f5f5f5;
+  margin-top: 3rem;
+}
+.photobox img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+@media only screen and (max-width: 600px) {
+  .blogie .box {
+    display: none;
+  }
+  .photos .boxes {
+    margin: auto;
+  }
+  .foodphoto .boxes2 img {
+    width: 100%;
+  }
+}/*# sourceMappingURL=blog.css.map */
