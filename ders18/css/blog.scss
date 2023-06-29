@@ -1,0 +1,569 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Fredoka:wght@500&family=Nunito+Sans:wght@300&family=Plus+Jakarta+Sans:wght@400;500&family=Roboto&display=swap');
+
+@mixin buttons {
+    display: inline-block;
+    font-size: 14px;
+    padding: 8px 25px 6px;
+    color: #111111;
+    text-transform: uppercase;
+    font-weight: 700 bolder;
+    border: 1px solid #f4952f;
+    background-color: white;
+    text-decoration: none;
+}
+
+@mixin dates {
+    text-align: center;
+    border: 1px solid white;
+    border-style: none;
+    width: 65px;
+    height: 65px;
+    padding: 0.5rem;
+    display: block;
+    background: rgba(0, 0, 0, 0.3);
+    margin: auto;
+}
+
+@mixin icons {
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    border: 1px solid transparent;
+    border-style: none;
+    padding: 0.5rem 1rem;
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+* {
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+
+.blogie {
+    padding: 3rem 0;
+
+    .button {
+        @include buttons;
+    }
+
+}
+
+.icons {
+    text-align: right;
+    padding: 63px 0;
+
+    i {
+        font-size: 14px;
+        color: #111111;
+        margin-right: 10px;
+    }
+
+}
+
+.photos {
+    .imgbox {
+
+        position: relative;
+
+        img {
+            width: 100%;
+        }
+
+        .text1 {
+            color: white;
+            position: absolute;
+            bottom: 10%;
+            left: 2%;
+
+            .dates {
+                text-align: center;
+                border: 1px solid white;
+                padding: 0.5rem 1rem;
+                display: inline-block;
+                background: rgba(0, 0, 0, 0.3);
+                border-style: none;
+                margin-left: 1rem;
+                margin-bottom: 1rem;
+
+                .date {
+                    font-size: 25px;
+                    line-height: 1;
+                }
+
+                .month {
+                    font-size: 20px;
+                }
+            }
+
+            .vegan {
+                font-size: 14px;
+
+                h5 {
+                    width: 90%;
+                    font-size: 15px;
+                }
+
+                .time {
+                    font-size: 10px;
+                    color: #c4c4c4;
+                }
+
+                .desert {
+                    color: #f4952f;
+                    text-transform: uppercase;
+                    font-size: 14px;
+                }
+
+
+            }
+
+        }
+
+        .icon {
+            @include icons;
+        }
+
+    }
+}
+
+.foodphoto {
+    padding: 5rem 0;
+
+    .photos {
+        .bgImg {
+            position: relative;
+
+            .textHover {
+                background: #eee1e1;
+                padding: 15px 20px 10px;
+                position: absolute;
+                top: 40%;
+                left: 30%;
+                
+
+                h5 {
+                    font-size: 20px;
+                    color: #111111;
+                    text-transform: uppercase;
+                }
+
+                p {
+                    color: #888888;
+                    font-weight: 600;
+                    margin-bottom: 0;
+                    font-size: 14px;
+                }
+            }
+
+         
+        }
+
+
+    }
+
+}
+
+.cooking {
+    .imgbox{
+        position: relative;
+        img{
+            width: 100%;
+        }
+     .dates {
+            text-align: center;
+            border: 1px solid white;
+            border-style: none;
+            width: 65px;
+            height: 65px;
+            padding: 0.5rem;
+            display: block;
+            background: white;
+            margin: auto;
+            position: absolute;
+            top: 2%;
+            left: 2%;
+
+            .date {
+                font-size: 26px;
+                line-height: 1;
+
+            }
+
+            .month {
+                font-size: 14px;
+                color: gray;
+            }
+        }
+
+        .text {
+            text-align: center;
+            margin: 2rem 0;
+
+            .icons {
+                text-align: center;
+            }
+
+            .vegan {
+               
+                font-size: 12px;
+                margin: auto;
+                line-height: 2;
+
+                h5 {
+                    font-size: 20px;
+                    width: 100%;
+                    line-height: 2;
+
+                }
+
+                .time {
+                    font-size: 15px;
+                    color: #c4c4c4;
+                    line-height: 2;
+                }
+
+                .desert {
+                    color: #f4952f;
+                    font-size: 12px;
+                    text-transform: uppercase;
+                    margin: 0 1rem;
+                }
+            }
+
+            p {
+                font-size: 14px;
+            }
+
+            button {
+                @include buttons;
+            }
+
+            .icons {
+                font-size: 16px;
+                color: rgb(109, 105, 105);
+
+                span {
+                    margin: 0 1rem;
+                }
+            }
+
+        }
+        .quote{
+            background: #f5f5f5;
+            padding: 1rem;
+            position: relative;
+            line-height: 1.6;
+            margin: 2rem 0;
+            
+            .quoteicon{
+                position: relative;
+                left: 0%;
+                top: 0%;
+                color: #f4952f;
+                font-size: 25px;
+            }
+            p{
+                font-size: 15px;
+                color: #000000;
+                letter-spacing: 0.5px;
+                font-weight: 600;
+            }
+            span{
+                font-size: 15px;
+                color: #f4952f;
+                font-weight: 600;
+                text-align: right;
+            }
+          }
+          .btnbox{
+            text-align: center;
+            line-height: 3;
+            .btn{
+                a{
+                    background-color: #ebebeb;
+                    text-decoration: none;
+                    padding: 0.5rem 5rem;
+                    text-align: center;
+                    color: black;
+                    font-size: 20px;
+                }
+            }
+          }
+        
+        
+        }
+
+.foodbox{
+    .imgbox{
+        .heading{
+            h6{
+                display: inline-block;
+                font-size: 15px;
+                color: #111111;
+               text-transform: uppercase;
+               margin: 2rem 0;
+            }
+        }
+        .sidebartext {
+            h6 {
+                font-size: 15px;
+                color: #444444;
+                margin-top: 1rem;
+            }
+    
+            span {
+                color: #f4952f;
+            }
+    
+            p {
+                font-size: 14px;
+                color: #444444;
+                font-weight: 400;
+                line-height: 26px;
+                margin: 0 0 15px 0;
+            }
+    
+            .sidebtn {
+                @include buttons;
+            }
+        }
+    
+        .sidebar_followlinks {
+            line-height: 2;
+    
+            i {
+                display: inline-block;
+                font-size: 16px;
+                color: #111111;
+                height: 46px;
+                width: 46px;
+                background: #f2f2f2;
+                border-radius: 50%;
+                line-height: 46px;
+                text-align: center;
+    
+            }
+        }
+        .futurepost {
+            .heading {
+                h6 {
+                    display: inline-block;
+                    font-size: 15px;
+                    color: #111111;
+                    text-transform: uppercase;
+                    margin: 2rem 0;
+        
+                }
+            }
+            .futureimg {
+                position: relative;
+                margin: 1rem 0;
+            
+                img {
+                    width: 100%;
+            
+                }
+            
+                .sidebartext {
+                    position: absolute;
+                    left: 0;
+                    bottom: 5%;
+                    width: 80%;
+                    margin-left: 1rem;
+            
+                    span {
+                        font-size: 12px;
+                        color: #f4952f;
+                        font-weight: 700;
+                        text-transform: uppercase
+                    }
+            
+                    h5 {
+                        font-size: 18px;
+            
+                        a {
+                            text-decoration: none;
+                            color: #ffffff;
+                        }
+                    }
+                }
+            }
+        }
+        .col_lg3{
+            .dates1 {
+                text-align: center;
+                border: 1px solid white;
+                border-style: none;
+                width: 65px;
+                height: 65px;
+                padding: 0.5rem;
+                display: block;
+                background: #f5f5f5;
+                margin: 1rem 0;
+    
+    
+                .date {
+                    font-size: 26px;
+                    line-height: 1;
+    
+                }
+    
+                .month {
+                    font-size: 14px;
+                    color: gray;
+                }
+            }
+            .vegan {  
+                .desert {
+                font-size: 15px;
+                text-transform: uppercase;
+                margin: 0 1rem;
+                color: #f4952f;
+                font-weight: bold;
+                
+               
+            }
+
+                h5 {
+                    font-size: 15px;
+                    line-height: 2;
+
+                }
+            }
+        }
+        
+    }
+}
+
+
+
+
+       
+
+       
+        
+       
+
+
+        .bannerimg {
+            h5 {
+                display: inline-block;
+                font-size: 15px;
+                color: #111111;
+                text-transform: uppercase;
+                line-height: 3;
+            }
+
+            .box {
+                color: #444444;
+                font-size: 15px;
+                font-weight: 600;
+
+                .number {
+                    text-align: right;
+                }
+            }
+        }
+
+        .substext {
+           line-height: 3;
+            h6 {
+                display: inline-block;
+                font-size: 15px;
+                color: #111111;
+                text-transform: uppercase;
+            }
+
+            p {
+                font-size: 14px;
+                color: #444444;
+                font-weight: 400;
+                line-height: 26px;
+                margin: 0 0 15px 0;
+            }
+
+            form {
+                input {
+                    height: 46px;
+                    width: 100%;
+                    padding-left: 15px;
+                    border: 1px solid #e1e1e1;
+                    font-size: 15px;
+                    color: #888888;
+                    margin-bottom: 20px;
+                }
+            
+                
+
+            }
+            .site-btn{
+                font-size: 15px;
+    color: #ffffff;
+    font-weight: 800;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 13px 26px 12px;
+    background: #f4952f;
+    border: none;
+            }
+
+        }
+   
+    .text{
+        span+span::before{
+            content: "|";
+            margin: 0 1rem;
+        }
+    }
+    
+    }
+
+
+
+.bannerimg {
+    margin: 3rem 0;
+
+    img {
+        width: 100%;
+    }
+}
+
+.photobox {
+    background: #f5f5f5;
+    margin-top: 3rem;
+
+    img {
+        width: 100%;
+        object-fit: contain;
+    }
+}
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .blogie {
+        .box {
+            display: none;
+        }
+    }
+
+    .photos {
+        .boxes {
+            margin: auto;
+        }
+    }
+
+    .foodphoto {
+        .photos {
+            img {
+                width: 100%;
+            }
+        }
+    }
+}

@@ -1,0 +1,422 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=Fredoka:wght@500&family=Nunito+Sans:wght@300&family=Plus+Jakarta+Sans:wght@400;500&family=Roboto&display=swap");
+* {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.blogie {
+  padding: 3rem 0;
+}
+.blogie .button {
+  display: inline-block;
+  font-size: 14px;
+  padding: 8px 25px 6px;
+  color: #111111;
+  text-transform: uppercase;
+  font-weight: 700 bolder;
+  border: 1px solid #f4952f;
+  background-color: white;
+  text-decoration: none;
+}
+
+.icons {
+  text-align: right;
+  padding: 63px 0;
+}
+.icons i {
+  font-size: 14px;
+  color: #111111;
+  margin-right: 10px;
+}
+
+.photos .imgbox {
+  position: relative;
+}
+.photos .imgbox img {
+  width: 100%;
+}
+.photos .imgbox .text1 {
+  color: white;
+  position: absolute;
+  bottom: 10%;
+  left: 2%;
+}
+.photos .imgbox .text1 .dates {
+  text-align: center;
+  border: 1px solid white;
+  padding: 0.5rem 1rem;
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.3);
+  border-style: none;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+.photos .imgbox .text1 .dates .date {
+  font-size: 25px;
+  line-height: 1;
+}
+.photos .imgbox .text1 .dates .month {
+  font-size: 20px;
+}
+.photos .imgbox .text1 .vegan {
+  font-size: 14px;
+}
+.photos .imgbox .text1 .vegan h5 {
+  width: 90%;
+  font-size: 15px;
+}
+.photos .imgbox .text1 .vegan .time {
+  font-size: 10px;
+  color: #c4c4c4;
+}
+.photos .imgbox .text1 .vegan .desert {
+  color: #f4952f;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.photos .imgbox .icon {
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  border: 1px solid transparent;
+  border-style: none;
+  padding: 0.5rem 1rem;
+  position: absolute;
+  top: 40%;
+  left: 5%;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.foodphoto {
+  padding: 5rem 0;
+}
+.foodphoto .photos .bgImg {
+  position: relative;
+}
+.foodphoto .photos .bgImg .textHover {
+  background: #eee1e1;
+  padding: 15px 20px 10px;
+  position: absolute;
+  top: 40%;
+  left: 30%;
+}
+.foodphoto .photos .bgImg .textHover h5 {
+  font-size: 20px;
+  color: #111111;
+  text-transform: uppercase;
+}
+.foodphoto .photos .bgImg .textHover p {
+  color: #888888;
+  font-weight: 600;
+  margin-bottom: 0;
+  font-size: 14px;
+}
+
+.cooking .imgbox {
+  position: relative;
+}
+.cooking .imgbox img {
+  width: 100%;
+}
+.cooking .imgbox .dates {
+  text-align: center;
+  border: 1px solid white;
+  border-style: none;
+  width: 65px;
+  height: 65px;
+  padding: 0.5rem;
+  display: block;
+  background: white;
+  margin: auto;
+  position: absolute;
+  top: 2%;
+  left: 2%;
+}
+.cooking .imgbox .dates .date {
+  font-size: 26px;
+  line-height: 1;
+}
+.cooking .imgbox .dates .month {
+  font-size: 14px;
+  color: gray;
+}
+.cooking .imgbox .text {
+  text-align: center;
+  margin: 2rem 0;
+}
+.cooking .imgbox .text .icons {
+  text-align: center;
+}
+.cooking .imgbox .text .vegan {
+  font-size: 12px;
+  margin: auto;
+  line-height: 2;
+}
+.cooking .imgbox .text .vegan h5 {
+  font-size: 20px;
+  width: 100%;
+  line-height: 2;
+}
+.cooking .imgbox .text .vegan .time {
+  font-size: 15px;
+  color: #c4c4c4;
+  line-height: 2;
+}
+.cooking .imgbox .text .vegan .desert {
+  color: #f4952f;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin: 0 1rem;
+}
+.cooking .imgbox .text p {
+  font-size: 14px;
+}
+.cooking .imgbox .text button {
+  display: inline-block;
+  font-size: 14px;
+  padding: 8px 25px 6px;
+  color: #111111;
+  text-transform: uppercase;
+  font-weight: 700 bolder;
+  border: 1px solid #f4952f;
+  background-color: white;
+  text-decoration: none;
+}
+.cooking .imgbox .text .icons {
+  font-size: 16px;
+  color: rgb(109, 105, 105);
+}
+.cooking .imgbox .text .icons span {
+  margin: 0 1rem;
+}
+.cooking .imgbox .quote {
+  background: #f5f5f5;
+  padding: 1rem;
+  position: relative;
+  line-height: 1.6;
+  margin: 2rem 0;
+}
+.cooking .imgbox .quote .quoteicon {
+  position: relative;
+  left: 0%;
+  top: 0%;
+  color: #f4952f;
+  font-size: 25px;
+}
+.cooking .imgbox .quote p {
+  font-size: 15px;
+  color: #000000;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+}
+.cooking .imgbox .quote span {
+  font-size: 15px;
+  color: #f4952f;
+  font-weight: 600;
+  text-align: right;
+}
+.cooking .imgbox .btnbox {
+  text-align: center;
+  line-height: 3;
+}
+.cooking .imgbox .btnbox .btn a {
+  background-color: #ebebeb;
+  text-decoration: none;
+  padding: 0.5rem 5rem;
+  text-align: center;
+  color: black;
+  font-size: 20px;
+}
+.cooking .foodbox .imgbox .heading h6 {
+  display: inline-block;
+  font-size: 15px;
+  color: #111111;
+  text-transform: uppercase;
+  margin: 2rem 0;
+}
+.cooking .foodbox .imgbox .sidebartext h6 {
+  font-size: 15px;
+  color: #444444;
+  margin-top: 1rem;
+}
+.cooking .foodbox .imgbox .sidebartext span {
+  color: #f4952f;
+}
+.cooking .foodbox .imgbox .sidebartext p {
+  font-size: 14px;
+  color: #444444;
+  font-weight: 400;
+  line-height: 26px;
+  margin: 0 0 15px 0;
+}
+.cooking .foodbox .imgbox .sidebartext .sidebtn {
+  display: inline-block;
+  font-size: 14px;
+  padding: 8px 25px 6px;
+  color: #111111;
+  text-transform: uppercase;
+  font-weight: 700 bolder;
+  border: 1px solid #f4952f;
+  background-color: white;
+  text-decoration: none;
+}
+.cooking .foodbox .imgbox .sidebar_followlinks {
+  line-height: 2;
+}
+.cooking .foodbox .imgbox .sidebar_followlinks i {
+  display: inline-block;
+  font-size: 16px;
+  color: #111111;
+  height: 46px;
+  width: 46px;
+  background: #f2f2f2;
+  border-radius: 50%;
+  line-height: 46px;
+  text-align: center;
+}
+.cooking .foodbox .imgbox .futurepost .heading h6 {
+  display: inline-block;
+  font-size: 15px;
+  color: #111111;
+  text-transform: uppercase;
+  margin: 2rem 0;
+}
+.cooking .foodbox .imgbox .futurepost .futureimg {
+  position: relative;
+  margin: 1rem 0;
+}
+.cooking .foodbox .imgbox .futurepost .futureimg img {
+  width: 100%;
+}
+.cooking .foodbox .imgbox .futurepost .futureimg .sidebartext {
+  position: absolute;
+  left: 0;
+  bottom: 5%;
+  width: 80%;
+  margin-left: 1rem;
+}
+.cooking .foodbox .imgbox .futurepost .futureimg .sidebartext span {
+  font-size: 12px;
+  color: #f4952f;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.cooking .foodbox .imgbox .futurepost .futureimg .sidebartext h5 {
+  font-size: 18px;
+}
+.cooking .foodbox .imgbox .futurepost .futureimg .sidebartext h5 a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.cooking .foodbox .imgbox .col_lg3 .dates1 {
+  text-align: center;
+  border: 1px solid white;
+  border-style: none;
+  width: 65px;
+  height: 65px;
+  padding: 0.5rem;
+  display: block;
+  background: #f5f5f5;
+  margin: 1rem 0;
+}
+.cooking .foodbox .imgbox .col_lg3 .dates1 .date {
+  font-size: 26px;
+  line-height: 1;
+}
+.cooking .foodbox .imgbox .col_lg3 .dates1 .month {
+  font-size: 14px;
+  color: gray;
+}
+.cooking .foodbox .imgbox .col_lg3 .vegan .desert {
+  font-size: 15px;
+  text-transform: uppercase;
+  margin: 0 1rem;
+  color: #f4952f;
+  font-weight: bold;
+}
+.cooking .foodbox .imgbox .col_lg3 .vegan h5 {
+  font-size: 15px;
+  line-height: 2;
+}
+.cooking .bannerimg h5 {
+  display: inline-block;
+  font-size: 15px;
+  color: #111111;
+  text-transform: uppercase;
+  line-height: 3;
+}
+.cooking .bannerimg .box {
+  color: #444444;
+  font-size: 15px;
+  font-weight: 600;
+}
+.cooking .bannerimg .box .number {
+  text-align: right;
+}
+.cooking .substext {
+  line-height: 3;
+}
+.cooking .substext h6 {
+  display: inline-block;
+  font-size: 15px;
+  color: #111111;
+  text-transform: uppercase;
+}
+.cooking .substext p {
+  font-size: 14px;
+  color: #444444;
+  font-weight: 400;
+  line-height: 26px;
+  margin: 0 0 15px 0;
+}
+.cooking .substext form input {
+  height: 46px;
+  width: 100%;
+  padding-left: 15px;
+  border: 1px solid #e1e1e1;
+  font-size: 15px;
+  color: #888888;
+  margin-bottom: 20px;
+}
+.cooking .substext .site-btn {
+  font-size: 15px;
+  color: #ffffff;
+  font-weight: 800;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 13px 26px 12px;
+  background: #f4952f;
+  border: none;
+}
+.cooking .text span + span::before {
+  content: "|";
+  margin: 0 1rem;
+}
+
+.bannerimg {
+  margin: 3rem 0;
+}
+.bannerimg img {
+  width: 100%;
+}
+
+.photobox {
+  background: #f5f5f5;
+  margin-top: 3rem;
+}
+.photobox img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+@media only screen and (max-width: 600px) {
+  .blogie .box {
+    display: none;
+  }
+  .photos .boxes {
+    margin: auto;
+  }
+  .foodphoto .photos img {
+    width: 100%;
+  }
+}/*# sourceMappingURL=blog.css.map */
