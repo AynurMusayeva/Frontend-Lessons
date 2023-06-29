@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Fredoka:wght@500&family=Nunito+Sans:wght@300&family=Plus+Jakarta+Sans:wght@400;500&family=Poppins:wght@500&family=Roboto&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.university{
+    .bgImg{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 600px;
+    position: relative;
+    background-attachment: fixed;
+    .text{
+        color: #fff;
+        position: absolute;
+        left: 8%;
+        top: 19%;
+        transform: translate(-50% -50%);
+        width: 40%;
+        font-family: 'Poppins', sans-serif;
+        h1{
+    font-size: 50px;
+    line-height: 1.2;
+    font-weight: 600;
+    
+        }
+        p{
+            margin: 1rem 0;
+        }
+        button{
+            margin: 1rem 0;
+            background: #fd5f00;
+                border: 1px solid #fd5f00;
+                border-radius: 30px;
+                padding: 0.9rem 1.8rem;
+                
+            a{
+                text-decoration: none;
+                color: #fff;
+            }
+        }
+       
+    }
+     }
+}
+.bgImg::before{
+    content: "";
+    background: linear-gradient(45deg, #0d1128 0%, #fd6100 100%);
+    height: 600px;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.certificate{
+    .box{
+    .about{
+          text-align: center;
+          background-color: #fd5f00;
+          padding: 0 1rem;
+          height: 350px;
+          line-height: 2;
+          color: #fff;
+          width: 100%;
+          transition: all 0.3s ease;
+            .icon{
+        
+                i{
+                    font-size: 50px;
+                    color: white;
+                    line-height: 2.5;
+                }
+            }
+            .heading{
+                font-size: 22px;
+            }
+            p{
+                font-size: 15px;
+            }
+            
+          }
+       
+    }
+}
+.univer{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    height:100vh;
+    color: white;
+    position: relative;
+    .box{
+        margin: 0 1rem;
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        .bgImgbox{
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+            height: 350px;
+            z-index: 1;
+        }
+        .textbox{
+            width: 95%;
+            h2{
+                font-size: 40px;
+                margin-bottom: 1.5rem;
+            }
+            p{
+                color: rgba(255, 255, 255, 0.9);
+                line-height: 1.8;
+            }
+        }
+        
+    }
+    .boxes{
+        position: absolute;
+            bottom: 20%;
+            left: 15%;
+            width: 80%;
+            
+        .countbox{
+            span{
+                font-weight: 600;
+                font-size: 40px;
+            }
+            p{
+                font-size: 16px;
+                color: rgba(255, 255, 255, 0.8)
+            }
+        }
+    }  
+     
+    
+}
+.univer::before{
+    content: "";
+    background: linear-gradient(45deg, #0d1128 0%, #fd6100 100%);
+    height: 100vh;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .univer{
+        .boxes{
+            display: none;
+        }
+    }
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 1200px) {
+    .university{
+        .text{
+            margin: auto;
+            text-align: center;
+        }
+    }
+}
+
+
