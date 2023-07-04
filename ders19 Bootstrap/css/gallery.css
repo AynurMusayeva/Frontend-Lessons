@@ -1,0 +1,41 @@
+.photos {
+  background-color: black;
+  padding: 1rem;
+}
+.photos .box .hov {
+  position: relative;
+}
+.photos .box .hov .textbox {
+  position: absolute;
+  top: 10%;
+  left: 20%;
+}
+.photos .box img {
+  width: 100%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.photos .box .mr-1 {
+  margin: 1rem 0;
+}
+.photos .boxes {
+  color: white;
+  text-align: right;
+}
+.photos .boxes .heading h2 {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 2;
+  margin: 3rem 0;
+}
+.photos .boxes .menu p {
+  font-size: 14px;
+}
+.photos .boxes .icons {
+  font-size: 14px;
+}
+.photos .boxes .icons i {
+  margin: 0 0.5rem;
+  line-height: 5;
+}/*# sourceMappingURL=gallery.css.map */
