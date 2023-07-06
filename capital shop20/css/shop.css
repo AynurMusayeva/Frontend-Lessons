@@ -1,0 +1,64 @@
+.shop .nav a {
+  color: black;
+  font-size: 10px;
+}
+.shop .nav .mrg {
+  text-align: right;
+}
+.shop .icons {
+  text-align: right;
+}
+.shop .icons i {
+  margin: 0 0.6rem;
+}
+
+.mrg::after {
+  content: "|";
+  margin: 0 0.5rem;
+}
+
+.menubar {
+  padding-bottom: 2rem;
+}
+.menubar .icons {
+  font-size: 20px;
+  text-align: center;
+  margin: auto;
+}
+
+.onlineshop .imgbox {
+  position: relative;
+}
+.onlineshop .imgbox .shopicons {
+  position: absolute;
+  background-color: white;
+  border-color: black;
+  left: 12%;
+  bottom: 20%;
+  padding: 1rem;
+  opacity: 0;
+}
+.onlineshop .imgbox .shopicons i {
+  font-size: 28px;
+  margin: 0 1rem;
+}
+.onlineshop .imgbox .cash {
+  margin: 1rem 0;
+  text-align: center;
+}
+.onlineshop .imgbox .cash p {
+  font-size: 14px;
+  line-height: 1;
+}
+.onlineshop .imgbox .cash .price {
+  text-decoration: line-through;
+}
+
+.imgbox:hover .shopicons {
+  opacity: 1;
+  transition: all 1s ease-in-out;
+}
+
+.cash:hover p {
+  color: red;
+}/*# sourceMappingURL=shop.css.map */
