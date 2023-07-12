@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Fredoka:wght@500&family=Nunito+Sans:wght@300&family=Plus+Jakarta+Sans:wght@400;500&family=Poppins:wght@500&family=Roboto&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.document{
+    padding: 4rem 0;
+    background-color: #f1f1f1;
+    border-top: 4px solid #5975b0;
+    position: relative;
+    padding-bottom: 77px;
+    color: white;
+    text-transform: uppercase;
+    display: block;
+    line-height: 37px;
+    letter-spacing: 0.8px;
+
+
+  .applies{
+   
+.appliestopr{
+        position: absolute;
+    top: -28px;
+    left: 35%;
+    right: 0;
+    margin: auto;
+    align-items: center;
+    .letters{
+        font-size: 16px;
+        font-weight: bold;
+        .letter1{
+            line-height: 33px;
+        padding: 0px 20px;
+        background-color: #224285;
+        display: block;
+        font-size: 16px;
+        font-weight: bold;
+        }
+        .letter2{
+            padding: 3px 14px;
+        background-color: #5975b0;
+        margin-right: 30px;
+        font-size: 16px;
+        font-weight: bold;
+        }
+    }
+    }
+  }
+  
+}
+.fillform{
+    span{
+        color:red;
+    }
+    background-color: #f1f1f1;
+    color: #224285;
+    .heading{
+        font-size: 16px;
+       
+        h1{
+            font-weight: bold;
+        }
+    
+    }
+    .container{
+        width: 65%;
+        margin: auto;
+        background-color:white;
+    }
+    .mainform{
+        font-weight: bold;
+        padding: 2rem 0;
+    }
+  }
